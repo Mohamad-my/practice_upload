@@ -2,10 +2,7 @@
 // تضمين ملف الهيدر
 include('file/header.php');
 
-// التأكد من الاتصال بقاعدة البيانات
-if (!$conn) {
-    die("فشل الاتصال بقاعدة البيانات: " . mysqli_connect_error());
-}
+
 ?>
 
 <!----product start------>
